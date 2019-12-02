@@ -27,12 +27,12 @@ ROBOTSTXT_OBEY = True
 # Configure a delay for requests for the same website (default: 0)
 # See https://doc.scrapy.org/en/latest/topics/settings.html#download-delay
 # See also autothrottle settings and docs
-######## 没有超过1分钟的爬取次数限制 但stackoverflow估计还有1小时的限制
-######## 爬取了5879条POI数据 ############
-DOWNLOAD_DELAY = 60 / 100.0
+
+######## the delay is 1 second ############
+DOWNLOAD_DELAY = 1.0 
 # The download delay setting will honor only one of:
 #CONCURRENT_REQUESTS_PER_DOMAIN = 16
-CONCURRENT_REQUESTS_PER_IP = 100
+CONCURRENT_REQUESTS_PER_IP = 1
 
 # Disable cookies (enabled by default)
 #COOKIES_ENABLED = False
