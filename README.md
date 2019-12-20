@@ -2,9 +2,11 @@
 Crawler to download Stack Overflow posts based on Scratch.
 
 ## usage
+Modify `user_config.json` file for the content you are interested (the tag to search, the number of pages, the number of posts in each page).
+
 Give permission for `run.sh` (e.g. `chmod 777 run.sh`) and execute the script.
 
-##setting
+## setting
 
 Settings should be modified in the file`so/setting.py`, the main concern is about the limit for visiting times for certain website.
 
