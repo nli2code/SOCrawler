@@ -17,7 +17,7 @@ class SoSpider(scrapy.Spider):
 
 	def start_requests(self):
 		urls = []
-		for i in range(1, self.pagenum):
+		for i in range(1, self.pagenum + 1):
 			url = self.main_url + '/questions/tagged/' + self.tag + '?page=' + str(i) + '&sort=votes&pagesize=' + str(self.pagesize)
 			urls.append(url)
 		for url in urls:
