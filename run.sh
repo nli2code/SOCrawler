@@ -1,1 +1,1 @@
-scrapy crawl so -o data/poi.json
+scrapy crawl so -o data/so.json

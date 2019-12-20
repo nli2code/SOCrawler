@@ -1,2 +1,4 @@
 data/
-analysis.md
+__pycache__/
+so/__pycache__/
+so/spiders/__pycache__/
