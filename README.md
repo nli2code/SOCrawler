@@ -2,7 +2,12 @@
 Crawler to download Stack Overflow posts based on Scratch.
 
 ## usage
-Modify `user_config.json` file for the content you are interested (the tag to search, the number of pages, the number of posts in each page).
+Modify `user_config.json` file for the content you are interested:
+- the tag to search (e.g. apache-poi)
+- the number of pages, `a` (e.g. 20)
+- the number of posts in each page, `b` (e.g. 50)
+
+As a result, you will download the top `a * b` posts ranked by their votes.
 
 Give permission for `run.sh` (e.g. `chmod 777 run.sh`) and execute the script.
 
